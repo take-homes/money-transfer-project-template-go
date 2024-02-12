@@ -17,7 +17,7 @@ To run the application, you do the following:
 2. Run a Worker. A Worker is a wrapper around your compiled Workflow and Activity code. A Worker's only job is to execute the Activity and Workflow functions and communicate the results back to the Temporal Server.
 
 The following diagram illustrates what happens when you start the Workflow:
-![High level project design](image.png)
+![High level project design](https://learn.temporal.io/assets/images/temporal-high-level-application-design-f056839fe125ae4317662a6491a37a74.png)
 
 
 The Temporal Server doesn't run your code. Your Worker, Workflow, and Activity run on your infrastructure, along with the rest of your applications.
